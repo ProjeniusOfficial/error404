@@ -16,7 +16,7 @@ function UnderConstruction() {
                 <h3 className="h2"></h3>
 
                 <p>
-                  Our Website is Under Construction — Get Ready for the Big
+                  Our Website is above Construction — Get Ready for the Big
                   reveal!
                 </p>
 
