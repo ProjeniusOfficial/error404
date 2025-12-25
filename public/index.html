@@ -2,19 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <!-- Use your custom favicon -->
-     <link rel="icon" href="%PUBLIC_URL%/logo.jpeg"/>
+
+    <!-- Primary favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+
     <meta
       name="description"
       content="ProJenius — Innovative Web Platform"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/touch-icon.jpeg"/>
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="icon" href="%PUBLIC_URL%/Logo_Circle.png"/>
-    <!-- Vite entry file -->
-     <link
+
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Bootstrap -->
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
     />
@@ -26,11 +32,10 @@
     />
 
     <title>ProJenius</title>
-
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <script type="module" src="/src/main.tsx"></script>
     <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
