@@ -1,31 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-
-    <!-- Viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Theme color -->
+    <meta charset="utf-8" />
+    <!-- Use your custom favicon -->
+     <link rel="icon" href="%PUBLIC_URL%/logo.jpeg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-
-    <!-- Description -->
     <meta
       name="description"
       content="ProJenius — Innovative Web Platform"
     />
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/Logo_Circle.png" />
-
-    <!-- Apple Touch Icon -->
-    <link rel="apple-touch-icon" href="/touch-icon.jpeg" />
-
-    <!-- Manifest -->
-    <link rel="manifest" href="/manifest.json" />
-
-    <!-- Bootstrap CSS (for your layout classes) -->
-    <link
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/touch-icon.jpeg"/>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="icon" href="%PUBLIC_URL%/Logo_Circle.png"/>
+    <!-- Vite entry file -->
+     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
     />
@@ -37,15 +26,11 @@
     />
 
     <title>ProJenius</title>
-  </head>
 
+  </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-
-    <!-- React mounts here -->
-    <div id="root"></div>
-
-    <!-- Vite entry file -->
     <script type="module" src="/src/main.tsx"></script>
+    <div id="root"></div>
   </body>
 </html>
